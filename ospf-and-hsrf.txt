@@ -1,0 +1,13 @@
+1. ospf ke routernya kek biasa
+  kalo di multilayer switch -> 
+    ke kabel yang mau dikasi ip trs
+      no switchport
+      ip address [ip] [subnet]
+2. buat hsrf dipake buat server/pc yang make gatewaynya antara backup atau main routernya.
+  harus punya kek 1 virtual ip buat penunjuk itu pake hsrf
+  buat pc/servernya pake gateway yang virtual ip
+    di main ama backup router
+    ke interface yang ngarah ke server/pc (kek: int fa0/1)
+    standby [groupnya (terserah 1-255)] ip [ip virtual]
+    standby [groupnya (samain kek diatas)] priority [terserah 1-255 (semakin gede priority, itu yang dipake, jadi main rtr gedein)]
+    lakuin yang sama buat backup rtr

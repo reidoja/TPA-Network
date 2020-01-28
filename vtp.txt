@@ -1,0 +1,7 @@
+1. tambahin vlan database di tempat yang jadi server
+2. en->conf t di router nya / multilayer switch
+3. set yang switch-switch / switch-router jadi trunk
+4. set yang ke pc access sesuai nomor vlan
+5. vtp domain [nama domain]
+   vtp password [pass]
+   vtp mode [client/server] 

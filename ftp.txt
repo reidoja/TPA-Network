@@ -1,0 +1,7 @@
+1. pastiin pc bisa message ke server
+2. server nya nyalain service ftp
+  add loginan baru kasih authorizationnya
+3. cara cek jalan apa kaga: ke pc nya
+  ke command prompt
+    ftp [ip server]
+    login pake user ama pass

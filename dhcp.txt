@@ -1,0 +1,14 @@
+1. buat vlan di router, trunk/access nya diatur
+2. en->conf t
+  int fa[kabel].[nomor vlan]
+  encapsulation dot1q [nomor vlan]
+  ip address [ip gateway jaringan sesuai vlan] [subnet]
+  lakuin buat smua vlan
+3. en->conf t
+  ip dhcp pool [NAMA POOL]
+  default-router [gatewaynya]
+  network [network address] [subnet]
+  lakuin buat smua vlan
+4. ip dhcp excluded-addresses [address gateway]
+  lakuin buat smua vlan (gatewaynya kan ada banyak tu)
+5. ke tiap pc trs ganti jadi dhcp

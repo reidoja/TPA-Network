@@ -1,0 +1,10 @@
+-- VTP dl --
+1. abis vtp jadi smua switch punya vlan database
+2. di multilayer switch bsa set ip buat vlan,
+  int vlan [number]
+  ip address [add] [subnet]
+3. set service di dhcp server nya,
+  dhcp server kasi ip subnet gateway,
+  di routernya/multilayer kasi setiap vlannya ->
+    int vlan [number]
+    ip helper-address [ip servernya] (ini untuk relaynya)
