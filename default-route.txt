@@ -1,0 +1,2 @@
+ke router yang mau dikasi default route
+ip route 0.0.0.0 0.0.0.0 [lewat kabel apa, kalo lewat kabel fa0/1 ya tulis fa0/1]

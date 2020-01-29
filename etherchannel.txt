@@ -1,0 +1,8 @@
+-- Etherchannel itu biar switch A yang hubungan ke switch B pake lebih dari 1 kabel bsa pake 2 kabelnya sekaligus --
+1. Ke Switch yang punya hubungan lebih dari 1 kabel
+2. int range fa0/[no kabel] - [no kabel]
+cth: SW1 kehubung ke SW2 pake fa0/1 ama fa0/2, jadi | int range fa0/1-2
+3. shut (matiin dl)
+4. channel-group [no group] (no group itu ya kek hubungan SW1 ke SW2 no 1, SW2 ke SW3 no 2 gitu, no nya terserah)
+kalo misal ini ngatur SW1 ama SW2 brarti lu lakuin no 2 ama 3 buat 2 switch itu
+5. no shut

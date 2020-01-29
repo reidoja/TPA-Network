@@ -1,0 +1,3 @@
+ke switch
+int range fa0/1-24 (bsa gini, kalo gini brarti smua kabel portfast, tapi kalo di soal kan mintanya yang access doang, jadi kalo lu mau ikutin soal bgt ke 1 1 kabelnya)
+spanning-tree portfast
