@@ -1,0 +1,11 @@
+ke server yang jadi server ntp nya
+ke services -> ntp
+di on in
+
+ke router di green network
+en->conf t
+ntp server [ip server ntp]
+do sh clock
+harusnya keluar gada * nya
+
+lakuin buat smua router di green network
