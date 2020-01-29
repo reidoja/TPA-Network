@@ -8,6 +8,8 @@
   ip dhcp pool [NAMA POOL]
   default-router [gatewaynya]
   network [network address] [subnet]
+  option 150 ip [tftp ip]
+  dns-server [ip]
   lakuin buat smua vlan
 4. ip dhcp excluded-addresses [address gateway]
   lakuin buat smua vlan (gatewaynya kan ada banyak tu)
